@@ -1,7 +1,7 @@
 enum Weekday { monday, tuesday, wednesday, thursday, friday, saturday, sunday }
 
 void main() {
-  Weekday? Wochentage = Weekday.monday;
+  Weekday? Wochentage = Weekday.wednesday;
   switch (Wochentage) {
     case Weekday.monday:
     case Weekday.tuesday:

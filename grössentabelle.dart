@@ -1,8 +1,9 @@
 enum Nutzeralter { age20to25, age25to30, age30to35 }
 
 void main() {
-  bool isMale = true;
+  bool isMale = false;
   Nutzeralter? userAge;
+  userAge = Nutzeralter.age25to30;
   switch (isMale) {
     case true:
       switch (userAge) {
@@ -12,8 +13,6 @@ void main() {
           print('Im Schnitt 181,3m');
         case Nutzeralter.age30to35:
           print('Im Schnitt 180,4m');
-        default:
-          print('Keine Daten verfügbar');
       }
     case false:
       switch (userAge) {
@@ -23,8 +22,6 @@ void main() {
           print('Im Schnitt 167,3m');
         case Nutzeralter.age30to35:
           print('Im Schnitt 167,2m');
-        default:
-          print('Keine Daten verfügbar');
       }
   }
 }
