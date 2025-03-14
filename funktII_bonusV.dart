@@ -1,7 +1,7 @@
 int zaehleBuchstaben(String text, String buchstabe) {
   int anzahl = 0;
   for (int i = 0; i < text.length; i++) {
-    if (text[i].toLowerCase() == buchstabe.toLowerCase()) {
+    if (text[i].toLowerCase == buchstabe.toLowerCase) {
       anzahl++;
     }
   }
