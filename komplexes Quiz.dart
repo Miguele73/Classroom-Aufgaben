@@ -8,7 +8,7 @@ int quizStart() {
   print("B) 8");
   print("C) 9");
   print("D) 10");
-  stdout.write("> ");
+
   String? antwort = stdin.readLineSync();
   if (antwort == "b") {
     print("Richtig!");
@@ -22,7 +22,7 @@ int quizStart() {
   print("B) 6");
   print("C) 7");
   print("D) 8");
-  stdout.write("> ");
+
   antwort = stdin.readLineSync();
   if (antwort == "a") {
     print("Richtig!");
@@ -36,7 +36,7 @@ int quizStart() {
   print("B) 6");
   print("C) 8");
   print("D) 10");
-  stdout.write("> ");
+
   antwort = stdin.readLineSync();
   if (antwort == "c") {
     print("Richtig!");
