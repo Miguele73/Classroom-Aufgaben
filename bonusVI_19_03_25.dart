@@ -4,6 +4,7 @@ class Author {
   final int age;
 
   Author(this.name, this.age);
+}
 
 // Klasse Buch erstellen
 class Book {
@@ -17,9 +18,10 @@ class Book {
 void main() {
   Author author1 = Author('Marc Marburger', 42);
   Book book1 = Book(title: 'Flutter und Dart', pages: 651, Author: Author);
-  print(book1.title);
-  print(book1.pages);
-  print(author1.name);
-  print(author1.age);
+  // print(book1.title);
+  // print(book1.pages);
+  // print(author1.name);
+  // print(author1.age);
+  print('Titel: ${book1.title} von ${author1.name} (${book1.pages}Seiten)');
   ;
 }
