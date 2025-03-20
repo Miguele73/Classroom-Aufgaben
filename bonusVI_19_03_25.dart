@@ -4,8 +4,8 @@ class Author {
   final int age;
 
   Author(this.name, this.age);
-}
 
+// Klasse Buch erstellen
 class Book {
   final String title;
   final int pages;
