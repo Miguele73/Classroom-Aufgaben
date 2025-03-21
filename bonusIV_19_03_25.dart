@@ -5,9 +5,9 @@ class Rectangle {
 
   // Konstruktor
   Rectangle({required this.edgeX, required this.edgeY});
-  // Funktion für den Umfang
+  // Methode für den Umfang
   double get scope => 2 * edgeY + 2 * edgeX;
-  // Funktion für die Fläche
+  // Methode für die Fläche
   double get area => edgeX * edgeY;
 }
 
