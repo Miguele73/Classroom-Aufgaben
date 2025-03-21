@@ -60,49 +60,48 @@ class Saw extends Tool {
     print('Säge wird verwendet');
     return this;
   }
+}
 
-  void main() {
-    Saw ironSaw = Saw(
-      kindOf: 'Eisen',
-      forWichMaterial: 'Eisen',
-      lenght: 12,
-      weight: 1.6,
-      size: 'klein',
-      color: 'silber',
-      useFor: 'Metall',
-      isAwarded: true,
-    );
-    Saw foxtail = Saw(
-      kindOf: 'Fuchsschwanz',
-      forWichMaterial: 'Holz',
-      lenght: 48,
-      weight: 13.8,
-      size: 'medium',
-      color: 'rot',
-      useFor: 'Holzsägearbeiten grob',
-      isAwarded: false,
-    );
-    Screwdriver crossHeaded = Screwdriver(
-      headed: 'Kreuzschlitz',
-      weight: 0.5,
-      size: 'Medium',
-      color: 'Red',
-      useFor: 'Kreuzschrauben',
-      isAwarded: false,
-    );
-    Screwdriver allenKey = Screwdriver(
-      headed: 'Inbus',
-      weight: 0.3,
-      size: 'Small',
-      color: 'Black',
-      useFor: 'Inbus Schrauben',
-      isAwarded: true,
-    );
+void main() {
+  Saw ironSaw = Saw(
+    kindOf: 'Eisen',
+    forWichMaterial: 'Eisen',
+    lenght: 12,
+    weight: 1.6,
+    size: 'klein',
+    color: 'silber',
+    useFor: 'Metall',
+    isAwarded: true,
+  );
+  Saw foxtail = Saw(
+    kindOf: 'Fuchsschwanz',
+    forWichMaterial: 'Holz',
+    lenght: 48,
+    weight: 13.8,
+    size: 'medium',
+    color: 'rot',
+    useFor: 'Holzsägearbeiten grob',
+    isAwarded: false,
+  );
+  Screwdriver crossHeaded = Screwdriver(
+    headed: 'Kreuzschlitz',
+    weight: 0.5,
+    size: 'Medium',
+    color: 'Red',
+    useFor: 'Kreuzschrauben',
+    isAwarded: false,
+  );
+  Screwdriver allenKey = Screwdriver(
+    headed: 'Inbus',
+    weight: 0.3,
+    size: 'Small',
+    color: 'Black',
+    useFor: 'Inbus Schrauben',
+    isAwarded: true,
+  );
 
-    List<Tool> tool = [ironSaw, foxtail, crossHeaded, allenKey];
-    print({crossHeaded.useFor});
-    print(ironSaw.isAwarded);
-    print(foxtail.isAwarded);
-    print(tool);
-  }
+  List<Tool> tool = [ironSaw, foxtail, crossHeaded, allenKey];
+  print({crossHeaded.useFor});
+  print(ironSaw.isAwarded);
+  print(foxtail.isAwarded);
 }
