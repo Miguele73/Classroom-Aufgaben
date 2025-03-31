@@ -59,7 +59,7 @@ class MyWidget extends StatelessWidget {
                 width: 900,
                 color: Color(0xFFBFDCCF),
                 alignment: Alignment.center,
-                child: Text('Chordlist')),
+                child: Text('Chordliste')),
             Spacer(flex: 4),
             Container(
                 height: 50,
