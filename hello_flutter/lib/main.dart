@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+// Removed incorrect import for the asset image
 
 void main() {
   runApp(MyWidget());
@@ -24,6 +25,7 @@ class MyWidget extends StatelessWidget {
         ),
         body: Column(
           children: [
+            Image.asset('assets/images/Musik gegen den Rest den Welt.jpeg'),
             Spacer(flex: 2),
             Center(
               child: Container(
